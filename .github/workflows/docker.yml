@@ -1,0 +1,17 @@
+name: Docker
+on:
+  push:
+    branches: 
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Publish Docker Image
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: cadscheme/cads-linux
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
