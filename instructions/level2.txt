@@ -1,0 +1,4 @@
+Farmer Joe can't find the folder anywhere on the computer. Can you give him the
+*FULL* path to the animals folder where he needs to look?
+
+(hint: you will need to use cd, ls and pwd for this level)

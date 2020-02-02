@@ -1,0 +1,7 @@
+Farmer Joe shares a computer with his son who is a scientist for the government.
+He keeps all of his research in a folder /home/research.
+
+While Farmer Joe is cleaning up some old files he comes across a hidden file in
+his son's research folder. It seems pretty important so he talks to his son
+about it, but unfortunately he has forgotten what was inside the file. Can you
+find out what the secret inside the file is?

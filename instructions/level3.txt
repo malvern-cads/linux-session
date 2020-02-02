@@ -1,0 +1,8 @@
+Farmer Joe is worried about accidentally deleting his animal files and he would
+like to copy them somewhere else on the computer as a backup.
+
+1. Can you make him a new folder called 'backups' to store the animal files in?
+   (hint: you will need to use cd, ls and mkdir)
+
+2. Great, now can you copy all of the animals into that folder for him?
+   (hint: you will need to use cp)

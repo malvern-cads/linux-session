@@ -1,0 +1,6 @@
+Farmer Joe is getting old and has forgotten his son's name. He thinks that he
+might be able to see the name of the person who owns some of the research files
+in order to find out his name again.
+
+Can you find out the username of the person who owns
+/home/research/thermodynamics.txt?

@@ -1,0 +1,8 @@
+Farmer Joe uses this computer keep track of all of the animals on his farm.
+Unfortunately, he's forgotten the commands for reading the names inside his
+animal files.
+
+There is a folder called animals in your home folder. What are the names of the
+two animals inside that folder?
+
+(hint: you will need to use cd, ls and cat for this level)
