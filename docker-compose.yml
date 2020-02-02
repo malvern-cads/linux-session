@@ -1,0 +1,397 @@
+version: '2.4'
+services:
+    linux01:
+        image: cadscheme/cads-linux
+        container_name: linux01
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux01_home:/home
+            - linux01_root:/root
+        networks:
+            - default
+        hostname: linux01
+    linux02:
+        image: cadscheme/cads-linux
+        container_name: linux02
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux02_home:/home
+            - linux02_root:/root
+        networks:
+            - default
+        hostname: linux02
+    linux03:
+        image: cadscheme/cads-linux
+        container_name: linux03
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux03_home:/home
+            - linux03_root:/root
+        networks:
+            - default
+        hostname: linux03
+    linux04:
+        image: cadscheme/cads-linux
+        container_name: linux04
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux04_home:/home
+            - linux04_root:/root
+        networks:
+            - default
+        hostname: linux04
+    linux05:
+        image: cadscheme/cads-linux
+        container_name: linux05
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux05_home:/home
+            - linux05_root:/root
+        networks:
+            - default
+        hostname: linux05
+    linux06:
+        image: cadscheme/cads-linux
+        container_name: linux06
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux06_home:/home
+            - linux06_root:/root
+        networks:
+            - default
+        hostname: linux06
+    linux07:
+        image: cadscheme/cads-linux
+        container_name: linux07
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux07_home:/home
+            - linux07_root:/root
+        networks:
+            - default
+        hostname: linux07
+    linux08:
+        image: cadscheme/cads-linux
+        container_name: linux08
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux08_home:/home
+            - linux08_root:/root
+        networks:
+            - default
+        hostname: linux08
+    linux09:
+        image: cadscheme/cads-linux
+        container_name: linux09
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux09_home:/home
+            - linux09_root:/root
+        networks:
+            - default
+        hostname: linux09
+    linux10:
+        image: cadscheme/cads-linux
+        container_name: linux10
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux10_home:/home
+            - linux10_root:/root
+        networks:
+            - default
+        hostname: linux10
+    linux11:
+        image: cadscheme/cads-linux
+        container_name: linux11
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux11_home:/home
+            - linux11_root:/root
+        networks:
+            - default
+        hostname: linux11
+    linux12:
+        image: cadscheme/cads-linux
+        container_name: linux12
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux12_home:/home
+            - linux12_root:/root
+        networks:
+            - default
+        hostname: linux12
+    linux13:
+        image: cadscheme/cads-linux
+        container_name: linux13
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux13_home:/home
+            - linux13_root:/root
+        networks:
+            - default
+        hostname: linux13
+    linux14:
+        image: cadscheme/cads-linux
+        container_name: linux14
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux14_home:/home
+            - linux14_root:/root
+        networks:
+            - default
+        hostname: linux14
+    linux15:
+        image: cadscheme/cads-linux
+        container_name: linux15
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux15_home:/home
+            - linux15_root:/root
+        networks:
+            - default
+        hostname: linux15
+    linux16:
+        image: cadscheme/cads-linux
+        container_name: linux16
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux16_home:/home
+            - linux16_root:/root
+        networks:
+            - default
+        hostname: linux16
+    linux17:
+        image: cadscheme/cads-linux
+        container_name: linux17
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux17_home:/home
+            - linux17_root:/root
+        networks:
+            - default
+        hostname: linux17
+    linux18:
+        image: cadscheme/cads-linux
+        container_name: linux18
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux18_home:/home
+            - linux18_root:/root
+        networks:
+            - default
+        hostname: linux18
+    linux19:
+        image: cadscheme/cads-linux
+        container_name: linux19
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux19_home:/home
+            - linux19_root:/root
+        networks:
+            - default
+        hostname: linux19
+    linux20:
+        image: cadscheme/cads-linux
+        container_name: linux20
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux20_home:/home
+            - linux20_root:/root
+        networks:
+            - default
+        hostname: linux20
+    linux21:
+        image: cadscheme/cads-linux
+        container_name: linux21
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux21_home:/home
+            - linux21_root:/root
+        networks:
+            - default
+        hostname: linux21
+    linux22:
+        image: cadscheme/cads-linux
+        container_name: linux22
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux22_home:/home
+            - linux22_root:/root
+        networks:
+            - default
+        hostname: linux22
+    linux23:
+        image: cadscheme/cads-linux
+        container_name: linux23
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux23_home:/home
+            - linux23_root:/root
+        networks:
+            - default
+        hostname: linux23
+    linux24:
+        image: cadscheme/cads-linux
+        container_name: linux24
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux24_home:/home
+            - linux24_root:/root
+        networks:
+            - default
+        hostname: linux24
+    linux25:
+        image: cadscheme/cads-linux
+        container_name: linux25
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux25_home:/home
+            - linux25_root:/root
+        networks:
+            - default
+        hostname: linux25
+    linux26:
+        image: cadscheme/cads-linux
+        container_name: linux26
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux26_home:/home
+            - linux26_root:/root
+        networks:
+            - default
+        hostname: linux26
+    linux27:
+        image: cadscheme/cads-linux
+        container_name: linux27
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux27_home:/home
+            - linux27_root:/root
+        networks:
+            - default
+        hostname: linux27
+    linux28:
+        image: cadscheme/cads-linux
+        container_name: linux28
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux28_home:/home
+            - linux28_root:/root
+        networks:
+            - default
+        hostname: linux28
+    linux29:
+        image: cadscheme/cads-linux
+        container_name: linux29
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux29_home:/home
+            - linux29_root:/root
+        networks:
+            - default
+        hostname: linux29
+    linux30:
+        image: cadscheme/cads-linux
+        container_name: linux30
+        cpus: 0.5
+        mem_limit: 512m
+        volumes:
+            - linux30_home:/home
+            - linux30_root:/root
+        networks:
+            - default
+        hostname: linux30
+networks:
+    default:
+        external:
+            name: cads
+volumes:
+    linux01_home:
+    linux01_root:
+    linux02_home:
+    linux02_root:
+    linux03_home:
+    linux03_root:
+    linux04_home:
+    linux04_root:
+    linux05_home:
+    linux05_root:
+    linux06_home:
+    linux06_root:
+    linux07_home:
+    linux07_root:
+    linux08_home:
+    linux08_root:
+    linux09_home:
+    linux09_root:
+    linux10_home:
+    linux10_root:
+    linux11_home:
+    linux11_root:
+    linux12_home:
+    linux12_root:
+    linux13_home:
+    linux13_root:
+    linux14_home:
+    linux14_root:
+    linux15_home:
+    linux15_root:
+    linux16_home:
+    linux16_root:
+    linux17_home:
+    linux17_root:
+    linux18_home:
+    linux18_root:
+    linux19_home:
+    linux19_root:
+    linux20_home:
+    linux20_root:
+    linux21_home:
+    linux21_root:
+    linux22_home:
+    linux22_root:
+    linux23_home:
+    linux23_root:
+    linux24_home:
+    linux24_root:
+    linux25_home:
+    linux25_root:
+    linux26_home:
+    linux26_root:
+    linux27_home:
+    linux27_root:
+    linux28_home:
+    linux28_root:
+    linux29_home:
+    linux29_root:
+    linux30_home:
+    linux30_root:

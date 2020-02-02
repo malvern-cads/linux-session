@@ -32,6 +32,10 @@ docker run -it cads-linux /bin/bash
 
 ## Production Setup
 
+See [the instructions here](production.md) for setting it up.
+
+### Containers
+
 - **[`caddy/caddy`](https://hub.docker.com/r/caddy/caddy)** - Reverse proxy for listening on a domain and forwarding to the internal web SSH container.
-- **[`bwsw/webshell`](https://hub.docker.com/r/bwsw/webshell)** - Web SSH for allowing users to SSH into each of the containers through the internal network.
-- **`cadscheme/cads-linux`** - The container setup with challenges.
+- **[`snsyzb/webssh`](https://hub.docker.com/r/snsyzb/webssh)** - Web SSH for allowing users to SSH into each of the containers through the internal network.
+- **[`cadscheme/cads-linux`](https://hub.docker.com/r/cadscheme/cads-linux)** - The container setup with challenges.
