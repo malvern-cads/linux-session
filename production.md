@@ -4,7 +4,7 @@ These instructions should give you a rough guide on setting up an environment fo
 
 ## 1. Server
 
-First, you will need to organise a system to deploy onto. We decided upon renting a [Hetzner](https://console.hetzner.cloud/) server for ~2 days, although you could do this on a laptop on the same network. It's a good idea to give it a hostname of a real domain (e.g. linux.cadscheme.co.uk) and have that real domain point to the server's IP.
+First, you will need to organise a system to deploy onto. We decided upon renting a [Hetzner](https://console.hetzner.cloud/) server for ~2 days, although you could do this on a laptop on the same network. It's a good idea to give it a hostname of a real domain (e.g. linux.<YOUR_DOMAIN>) and have that real domain point to the server's IP.
 
 ## 2. Docker
 
@@ -24,9 +24,8 @@ docker volume create portainer_data
 docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 ```
 
-Now, head over to http://linux.cadscheme.co.uk:9000/ and setup a new account and select 'Local' and hit the 'Connect' button.
+Now, head over to http://linux.<YOUR_DOMAIN>:9000/ and setup a new account and select 'Local' and hit the 'Connect' button.
 
-![](https://i.vgy.me/QWWKV8.png)
 
 ## 4. Internal Network
 
@@ -44,16 +43,16 @@ Next up, we'll create a container for running the Web SSH that people will use f
 docker run -d --network cads --name webssh -p :8080 --restart=unless-stopped snsyzb/webssh
 ```
 
-This container will be launched with a random port, in my case `32768`, so heading over to http://linux.cadscheme.co.uk:32768/, I can see that it seems to be working ok.
+This container will be launched with a random port, in my case `32768`, so heading over to http://linux.<YOUR_DOMAIN>:32768/, I can see that it seems to be working ok.
 
 ## 6. Reverse Proxy
 
-It's not very user friendly to be typing in a URL with a port, so let's set it up so that we are listeining on just linux.cadscheme.co.uk. We can use something like Nginx or Caddy. I'm a fan of Caddy because it 'just works' without much configuration.
+It's not very user friendly to be typing in a URL with a port, so let's set it up so that we are listeining on just linux.<YOUR_DOMAIN>. We can use something like Nginx or Caddy. I'm a fan of Caddy because it 'just works' without much configuration.
 
 Create a new file at `/root/Caddyfile` with these contents:
 
 ```
-linux.cadscheme.co.uk {
+linux.<YOUR_DOMAIN> {
     log stdout
     errors stderr
 
@@ -66,7 +65,7 @@ linux.cadscheme.co.uk {
 }
 ```
 
-This file tells Caddy to listen on the domain `linux.cadscheme.co.uk`, send the logs to the console, setup HTTPS with the email, proxy all traffic to the webshell container and allow websocket traffic.
+This file tells Caddy to listen on the domain `linux.<YOUR_DOMAIN>`, send the logs to the console, setup HTTPS with the email, proxy all traffic to the webshell container and allow websocket traffic.
 
 Then launch the Caddy container:
 
@@ -75,7 +74,7 @@ docker volume create caddy_certs
 docker run -d --name caddy --network cads -p 80:80 -p 443:443 -v /root/Caddyfile:/etc/Caddyfile -v caddy_certs:/root/.caddy -e ACME_AGREE=true --restart=unless-stopped abiosoft/caddy:1.0.3
 ```
 
-Then after waiting a couple of seconds for the container to warm up and fetch certificates, we can head to linux.cadscheme.co.uk and we have the web SSH client with a valid HTTPS certificate.
+Then after waiting a couple of seconds for the container to warm up and fetch certificates, we can head to linux.<YOUR_DOMAIN> and we have the web SSH client with a valid HTTPS certificate.
 
 ## 7. Create containers
 
@@ -92,4 +91,4 @@ Execute `docker-compose up -d` to create the Linux containers.
 
 ## 8. Profit
 
-It should be ready now. Test it out by going to https://linux.cadscheme.co.uk (or your own domain name) and type in the hostname `linux01.cads`, port `22`, username `root` and password `cads` and check if the connection works.
+It should be ready now. Test it out by going to https://linux.<YOUR_DOMAIN> (or your own domain name) and type in the hostname `linux01.cads`, port `22`, username `root` and password `cads` and check if the connection works.
