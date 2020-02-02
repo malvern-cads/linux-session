@@ -1,0 +1,10 @@
+Prof. Lewis has been interested in nuclear power for years and he has finally
+decided to make a nuclear reactor in his shed. He's a bit rough around the edges
+on his chemistry knowledge so he has been learning the GCSE chemistry syllabus.
+
+Prof. Lewis wrote some notes about alkenes but he has lost them on the computer.
+He definitely knows that the file is called alkenes.txt but he doesn't know
+which folder. Can you find the *FULL* path to the alkenes.txt file?
+
+(hint: you will need to use the find command and make sure you search the
+*entire* computer)

@@ -21,6 +21,8 @@ RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 RUN useradd proflewis
 
 # ======================= SETUP LEVELS =======================
+COPY motd.txt /etc/motd
+
 # Instructions
 COPY ./instructions /root/instructions/
 COPY ./instructions /etc/skel/instructions/
@@ -28,13 +30,15 @@ COPY ./instructions /etc/skel/instructions/
 # Level 1, 2 and 3
 COPY ./level_files/animals /root/animals/
 
-# Level 4
+# Level 4, 5 and 6
 RUN mkdir /home/research
 RUN groupadd research
 COPY ./level_files/research /home/research
 RUN chown -R proflewis:research /home/research
 
-COPY motd.txt /etc/motd
+# Level 7
+RUN mkdir -p /var/backups/research
+COPY ./level_files/alkenes.txt /var/backups/research/alkenes.txt
 
 # Run SSH in the foreground
 CMD ["/usr/sbin/sshd", "-D"]

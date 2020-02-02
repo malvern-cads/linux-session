@@ -1,0 +1,48 @@
+In organic chemistry, an alkene, olefin, or olefine is an unsaturated chemical
+compound containing at least one carbon-to-carbon double bond. The simplest
+alkenes, with only one double bond, no rings, and no other functional groups,
+are hydrocarbons with the general formula CnH2n.
+
+Aromatic compounds are often drawn as cyclic alkenes, but their structure and
+properties are different and they are not considered to be alkenes.
+
+The double bond in the middle makes them more reactive because the molecule is
+not saturated. An alkene's unsaturation means that it will take the color out of
+bromine. The names of alkenes always end with -ene.
+
+LIST OF ALKENES
+================================================================================
+The following is a list of the first seventeen Alkenes:
+ - Ethene (C2H4)
+ - Propene (C3H6)
+ - Butene (C4H8)
+ - Pentene (C5H10)
+ - Hexene (C6H12)
+ - Heptene (C7H14)
+ - Octene (C8H16)
+ - Nonene (C9H18)
+ - Decene (C10H20)
+ - Undecene (C11H22)
+ - Dodecene (C12H24)
+ - Tridecene (C13H26)
+ - Tetradecene (C14H28)
+ - Pentadecene (C15H30)
+ - Hexadecene (C16H32)
+ - Heptadecene (C17H34)
+
+PHYSICAL PROPERTIES
+================================================================================
+The physical properties of alkenes are comparable with those of alkanes. The
+main differences between the two are that the acidity levels of alkenes are much
+higher than the ones in alkanes. The physical state depends on molecular mass
+(gases from ethene to butene - liquids from pentene onwards). The simplest
+alkenes, ethene, propene and butene are gases. Linear alkenes of approximately
+five to sixteen carbons are liquids, and higher alkenes are waxy solids.
+
+FUEL
+================================================================================
+Alkenes are not used as fuels because:
+ - They are scarce in nature. They are made from other hydrocarbons to make
+   plastics, anti–freeze and many other useful compounds.
+ - They burn with a smoky flame due to less efficient, and more polluting
+   incomplete combustion, so the heat energy release is lower than for alkanes.
