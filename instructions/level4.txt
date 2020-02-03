@@ -1,5 +1,5 @@
 Farmer Joe shares a computer with his son who is a scientist for the government.
-He keeps all of his research in a folder /home/research.
+He keeps all of his research in a folder /root/research.
 
 While Farmer Joe is cleaning up some old files he comes across a hidden file in
 his son's research folder. It seems pretty important so he talks to his son

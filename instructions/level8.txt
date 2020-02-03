@@ -4,7 +4,7 @@ thermodynamics.txt and alkenes.txt. He thinks that you might be able to compress
 them into a zip file in order for it to fit on his flash drive.
 
 1. Can you copy alkenes.txt from the folder from the last level to
-   /home/research?
+   /root/research?
 
 2. Can you compress the three files into a single zip file?
    (hint: you will need the zip command)
