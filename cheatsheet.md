@@ -57,6 +57,24 @@
   user@CADS animals $ ls
   cow.txt fish.txt
   ```
-   
+### `whoami`
+- Prints the current username
+### `adduser`
+- Can be used to add new users.
+- You can use the flag `-m` to include creating a home directory
+- e.g.
+  ```
+  user@CADS ~ # adduser -m jeff
+  user@CADS  $ ls /home
+  jeff
+  ```
+### `su`
+- Stands for switch user
+- e.g.
+  ```
+  user@CADS ~ $ su jeff
+  jeff@CADS ~ $ whoami
+  jeff
+  ```
 
 
