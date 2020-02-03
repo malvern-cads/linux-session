@@ -40,5 +40,9 @@ RUN chown -R proflewis:research /root/research
 RUN mkdir -p /var/backups/research
 COPY ./level_files/alkenes.txt /var/backups/research/alkenes.txt
 
+#
+RUN echo 'PS1="\e[0;31m[\u@\h \W]\$ \e[m "' > /etc/profile
+RUN source /etc/profile
+
 # Run SSH in the foreground
 CMD ["/usr/sbin/sshd", "-D"]
