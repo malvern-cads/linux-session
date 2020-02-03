@@ -1,0 +1,5 @@
+Farmer Joe is using his account and wants to run the command "ps aux" as root and was going to use the command su but his book tells him that it is bad practice.
+It says he needs to use the command "usermod -aG sudo <username>" as root and then he will be able to use sudo.
+Unfortunately, he has misplaced his keyboard.
+
+Could you add his user account to the sudo group?
