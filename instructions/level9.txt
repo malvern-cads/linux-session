@@ -1,0 +1,6 @@
+Farmer Joe decided that he was fed up at being a farmer and has decided to have a career change to a cyber security consultant.
+He has read a book about Linux and it says that a standard user should be created and you should only elevate to an admin when needed to.
+
+What is the current user's name?
+
+Could you create a standard user for Farmer Joe called farmerjoe with a home directory?
