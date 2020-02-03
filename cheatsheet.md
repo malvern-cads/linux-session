@@ -76,5 +76,18 @@
   jeff@CADS ~ $ whoami
   jeff
   ```
+### `sudo`
+- `sudo` elavates the user to root for one command
+- Usage: `sudo <command>`
+- e.g.
+  ```
+  user@CADS ~ $ sudo whoami
+  root
+  user@CADS ~ $ whoami
+  user
+  ```
+### `apt`
+- Apt is a package manager on Ubuntu.
+- Packages can be installed using: `apt install <package name>`
 
 
