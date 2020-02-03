@@ -1,0 +1,3 @@
+Farmer Joe has a side hobby of trains. He has heard there is linux command that runs an animated train. It is called sl.
+
+Could you install sl as farmerjoe? (hint: you will need to use sudo)
