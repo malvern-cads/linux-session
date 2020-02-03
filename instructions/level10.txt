@@ -1,0 +1,4 @@
+Farmer Joe has realised that his new account doesn't have a password. 
+He also has read in his new Linux book that most commands can take a -h parameter that will give a short introduction in how to use the command.
+
+Using this knowledge can you set a password for Farmer Joe's account?
