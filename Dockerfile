@@ -4,7 +4,7 @@ FROM debian:10
 WORKDIR /root/
 
 # Install stuff
-RUN apt-get update && apt-get install -y openssh-server openssl lynx nano man
+RUN apt-get update && apt-get install -y openssh-server openssl lynx nano man zip unzip sudo
 
 # ======================= SETUP SSH =======================
 RUN mkdir /var/run/sshd

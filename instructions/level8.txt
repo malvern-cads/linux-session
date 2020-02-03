@@ -1,0 +1,10 @@
+Prof. Lewis needs to take his research to work but he doesn't have enough space
+on his favourite Spiderman flash drive to store it all. He needs propellant.txt,
+thermodynamics.txt and alkenes.txt. He thinks that you might be able to compress
+them into a zip file in order for it to fit on his flash drive.
+
+1. Can you copy alkenes.txt from the folder from the last level to
+   /home/research?
+
+2. Can you compress the three files into a single zip file?
+   (hint: you will need the zip command)
