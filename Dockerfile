@@ -31,10 +31,10 @@ COPY ./instructions /etc/skel/instructions/
 COPY ./level_files/animals /root/animals/
 
 # Level 4, 5 and 6
-RUN mkdir /home/research
+RUN mkdir /root/research
 RUN groupadd research
-COPY ./level_files/research /home/research
-RUN chown -R proflewis:research /home/research
+COPY ./level_files/research /root/research
+RUN chown -R proflewis:research /root/research
 
 # Level 7
 RUN mkdir -p /var/backups/research
